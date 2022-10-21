@@ -5,10 +5,12 @@ import './App.css';
 function App() {
   const [text, setText] = React.useState('');
 
+  // Keeping mutable values without re-rendering
   const renders = React.useRef({
     count: 0,
   });
 
+  // Tracking state changes
   const previousText = React.useRef({
     text: '',
   });
