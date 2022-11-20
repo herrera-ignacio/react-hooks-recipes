@@ -1,0 +1,18 @@
+{
+  "name": "@ds.e/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ignacio Herrera <ignacioromanherrera@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^6.0.3"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": ["packages/*"],
+    "nohoist": ["**/normalize-scss"]
+  }
+}

@@ -4,7 +4,8 @@ Working examples of things you'd want to do with React.
 
 ## Styling
 
-- [SCSS to CSS](styling/scss-css)
+- [Design system as Monorepo with Lerna](styling/design-system)
+  - [SCSS to CSS](styling/design-system//packages/scss/)
 
 ## Hooks
 
