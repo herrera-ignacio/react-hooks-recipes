@@ -1,6 +1,10 @@
-# React recipes
+# React notes
 
 Working examples of things you'd want to do with React.
+
+## Architecture
+
+- [Pure functions and side effects](./architecture/pure-functions/README.md)
 
 ## Styling
 
