@@ -6,6 +6,11 @@ Working examples of things you'd want to do with React.
 
 - [Pure functions and side effects](./architecture/pure-functions/README.md)
 
+## Specifics
+
+- [Elements vs components](specifics/elements-vs-components/README.md)
+- [forwardRef](gotchas/forwardRef)
+
 ## Styling
 
 - [Design system as Monorepo with Lerna](styling/design-system)
@@ -13,14 +18,12 @@ Working examples of things you'd want to do with React.
 
 ## Hooks
 
+## Examples
+
 - [useState](hooks/useState)
 - [useEffect](hooks/useEffect)
 - [useRef](hooks/useRef)
-- [useContext](hooks/useContext)
+- [useContext](hooks/useContext) 
 - [useReducer](hooks/useReducer)
 - [useImperativeHandle](hooks/useImperativeHandle)
 - [useLayoutEffect](hooks/useLayoutEffect)
-
-## Gotchas
-
-- [forwardRef](gotchas/forwardRef)
