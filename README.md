@@ -18,7 +18,7 @@ Working examples of things you'd want to do with React.
 
 ## Hooks
 
-## Examples
+### Examples
 
 - [useState](hooks/useState)
 - [useEffect](hooks/useEffect)
@@ -36,4 +36,4 @@ Working examples of things you'd want to do with React.
 
 - [Counter](challenges/counter)
 - [Smart character limit](challenges/smart-character-limit)
-- [Password Toggle]
+- [Password Toggle](challenges/password-toggle)
