@@ -14,7 +14,7 @@ Working examples of things you'd want to do with React.
 ## Styling
 
 - [Design system as Monorepo with Lerna](styling/design-system)
-  - [SCSS to CSS](styling/design-system//packages/scss/)
+  - [SCSS to CSS](styling/design-system/packages/scss)
 
 ## Hooks
 
@@ -27,3 +27,13 @@ Working examples of things you'd want to do with React.
 - [useReducer](hooks/useReducer)
 - [useImperativeHandle](hooks/useImperativeHandle)
 - [useLayoutEffect](hooks/useLayoutEffect)
+
+## Gotchas
+
+- [forwardRef](gotchas/forwardRef)
+
+## Challenges
+
+- [Counter](challenges/counter)
+- [Smart character limit](challenges/smart-character-limit)
+- [Password Toggle]
