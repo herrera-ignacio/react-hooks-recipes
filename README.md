@@ -40,3 +40,4 @@ Working examples of things you'd want to do with React.
 - [Multistep form](challenges/multi-step-form)
 - [Form builder](challenges/form-builder)
 - [Search filter](challenges/search-filter)
+- [Poke API ignore stale response](challenges/pokeapi-ignore-stale-res)
