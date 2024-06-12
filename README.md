@@ -37,3 +37,6 @@ Working examples of things you'd want to do with React.
 - [Counter](challenges/counter)
 - [Smart character limit](challenges/smart-character-limit)
 - [Password Toggle](challenges/password-toggle)
+- [Multistep form](challenges/multi-step-form)
+- [Form builder](challenges/form-builder)
+- [Search filter](challenges/search-filter)
