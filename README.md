@@ -41,3 +41,4 @@ Working examples of things you'd want to do with React.
 - [Form builder](challenges/form-builder)
 - [Search filter](challenges/search-filter)
 - [Poke API ignore stale response](challenges/pokeapi-ignore-stale-res)
+- [Clock](challenges/clock)
