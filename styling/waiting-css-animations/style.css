@@ -1,0 +1,188 @@
+.diagram {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+    justify-items: center;
+    gap: 1em;
+    margin-bottom: 2em;
+}
+
+.diagram > svg {
+    max-width: calc(300px * 1.11);
+}
+
+.toggle-diagram {
+    position: relative;
+}
+
+.toggle-input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.toggle-options {
+    width: auto;
+    display: grid;
+    grid-template-columns: 3fr 5em 1fr;
+    align-items: center;
+    gap: 1em;
+    line-height: 1.2;
+}
+
+.toggle-options::before {
+    content: attr(data-unchecked);
+    text-align: right;
+}
+
+.toggle-options::after {
+    content: attr(data-checked);
+}
+
+.toggle-switch {
+    width: 5em;
+    height: 2em;
+    padding: .3em;
+    position: relative;
+    border: 1px solid var(--white);
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.toggle-marker {
+    content: '';
+    height: 100%;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--yellow);
+    transition: transform 100ms ease-in-out;
+}
+
+.reactLogo {
+    max-width: 80%;
+    opacity: 0;
+    transition: opacity 100ms ease-in-out;
+}
+
+.toggle-input:focus-visible ~ .toggle-label .toggle-switch {
+    box-shadow: 0 0 0 .1em var(--charcoal),
+    0 0 0 .2em var(--blue);
+}
+
+.toggle-input:checked ~ .toggle-label .toggle-marker {
+    background-color: var(--blue);
+    transform: translate(3em,0);
+    transform-origin: center center;
+}
+
+.toggle-input:checked ~ .toggle-label .reactLogo {
+    opacity: 1;
+}
+
+.pizza,
+.taco,
+.component1Gradient,
+.component2Gradient
+{
+    opacity: 0;
+}
+
+.icon {
+    transform-box: fill-box;
+    transform-origin: center center;
+}
+
+.concern {
+    transition: all 500ms ease-in-out;
+}
+
+.component {
+    transition: all 800ms ease-in-out;
+}
+
+.icon {
+    transition: transform 800ms ease-in-out;
+}
+
+.react-approach .bread,
+.react-approach .chip  {
+    transform: translateY(4.1em);
+}
+.react-approach .pepperoni,
+.react-approach .pepper  {
+    transform: translateY(-4.1em);
+}
+
+.react-approach .bread,
+.react-approach .chip,
+.react-approach .cheese1,
+.react-approach .cheese2,
+.react-approach .pepper,
+.react-approach .pepperoni {
+    animation: fadeOut 300ms ease-in-out forwards;
+    animation-delay: 700ms;
+}
+
+.react-approach .component1,
+.react-approach .component2 {
+    stroke: var(--coal);
+}
+
+.react-approach .component1Gradient,
+.react-approach .component2Gradient {
+    opacity: 1;
+}
+
+.react-approach .concern {
+    stroke: var(--white);
+    fill: var(--coal);
+}
+
+.react-approach .pizza,
+.react-approach .taco {
+    animation: popIn 400ms ease-in-out forwards;
+    animation-delay: 700ms;
+}
+
+.trad-approach .pizza,
+.trad-approach .taco {
+    animation: fadeOut 400ms ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes popIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+

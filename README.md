@@ -15,6 +15,7 @@ Working examples of things you'd want to do with React.
 
 - [Design system as Monorepo with Lerna](styling/design-system)
   - [SCSS to CSS](styling/design-system/packages/scss)
+- [Waiting for CSS animations](styling/waiting-css-animations)
 
 ## Hooks
 
@@ -34,6 +35,8 @@ Working examples of things you'd want to do with React.
 
 ## Challenges
 
+### useEffect and useState
+
 - [Counter](challenges/counter)
 - [Smart character limit](challenges/smart-character-limit)
 - [Password Toggle](challenges/password-toggle)
@@ -43,3 +46,5 @@ Working examples of things you'd want to do with React.
 - [Poke API ignore stale response](challenges/pokeapi-ignore-stale-res)
 - [Clock](challenges/clock)
 - [Country info](challenges/country-info)
+
+### useRef
