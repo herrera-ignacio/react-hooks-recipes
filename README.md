@@ -48,3 +48,7 @@ Working examples of things you'd want to do with React.
 - [Country info](challenges/country-info)
 
 ### useRef
+
+- [Autofocus](challenges/autofocus)
+- [Video-player](challenges/video-player)
+- [Field notes](challenges/field-notes)
