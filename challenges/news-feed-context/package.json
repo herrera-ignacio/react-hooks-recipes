@@ -1,0 +1,15 @@
+{
+  "name": "news-feed-context",
+  "version": "1.0.0",
+  "description": "In this challenge you're given a news feed with different videos. To improve the UX of your feed, the challenge is to make sure only one video can play at a time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}

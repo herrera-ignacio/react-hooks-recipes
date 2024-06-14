@@ -61,3 +61,4 @@ Working examples of things you'd want to do with React.
 - [Auth context](challenges/auth-context)
 - [Translations context](challenges/translations-context)
 - [Tabs context](challenges/tabs-context)
+- [News feed context](challenges/news-feed-context)
