@@ -1,0 +1,15 @@
+{
+  "name": "tabs-context",
+  "version": "1.0.0",
+  "description": "Given the completed JSX, finish the app so that the correct tab content is shown when a tab is clicked.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}
