@@ -68,3 +68,4 @@ Working examples of things you'd want to do with React.
 ### useReducer
 
 - [Multistep form reducer](challenges/multi-step-form-reducer)
+- [Task manager reducer](challenges/task-manager-reducer)
