@@ -55,3 +55,7 @@ Working examples of things you'd want to do with React.
 - [Click outside](challenges/click-outside)
 - [Expanding textarea](challenges/expanding-textarea)
 - [Follow the leader](challenges/follow-the-leader)
+
+### Context
+
+- [Auth context](challenges/auth-context)
