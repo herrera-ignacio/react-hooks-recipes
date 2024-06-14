@@ -1,0 +1,15 @@
+{
+  "name": "click-outside",
+  "version": "1.0.0",
+  "description": "In this challenge you'll be adding a modal experience to the app. The user needs to be able to open the modal and then close it either by clicking the close icon in the modal itself, or by clicking anywhere outside of the modal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}

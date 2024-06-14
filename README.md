@@ -52,3 +52,6 @@ Working examples of things you'd want to do with React.
 - [Autofocus](challenges/autofocus)
 - [Video-player](challenges/video-player)
 - [Field notes](challenges/field-notes)
+- [Click outside](challenges/click-outside)
+- [Expanding textarea](challenges/expanding-textarea)
+- [Follow the leader](challenges/follow-the-leader)
