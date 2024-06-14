@@ -26,6 +26,8 @@ Working examples of things you'd want to do with React.
 - [useRef](hooks/useRef)
 - [useContext](hooks/useContext) 
 - [useReducer](hooks/useReducer)
+  - [To-Do list](hooks/useReducer/todo)
+  - [Counter with steps](hooks/useReducer/counterWithSteps)
 - [useImperativeHandle](hooks/useImperativeHandle)
 - [useLayoutEffect](hooks/useLayoutEffect)
 
