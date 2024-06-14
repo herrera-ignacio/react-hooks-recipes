@@ -58,9 +58,13 @@ Working examples of things you'd want to do with React.
 - [Expanding textarea](challenges/expanding-textarea)
 - [Follow the leader](challenges/follow-the-leader)
 
-### Context
+### useContext
 
 - [Auth context](challenges/auth-context)
 - [Translations context](challenges/translations-context)
 - [Tabs context](challenges/tabs-context)
 - [News feed context](challenges/news-feed-context)
+
+### useReducer
+
+- [Multistep form reducer](challenges/multi-step-form-reducer)

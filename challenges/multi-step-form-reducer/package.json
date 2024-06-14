@@ -1,0 +1,15 @@
+{
+  "name": "multi-step-form-reducer",
+  "version": "1.0.0",
+  "description": "Given the solution code to the previous \"Multistep Form\" challenge you encountered earlier in the course, your job is to refactor the app to use useReducer to manage state instead of useState.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}
