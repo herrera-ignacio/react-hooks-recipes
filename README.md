@@ -79,3 +79,7 @@ Working examples of things you'd want to do with React.
 - [Localized primes](challenges/localized-primes)
 - [Data table](challenges/data-table)
 - [Optimizing renders counter](challenges/optimizing-renders-counter)
+
+### useLayoutEffect
+
+- [React ruler resize](challenges/react-ruler-resize)
