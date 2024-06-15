@@ -1,0 +1,15 @@
+{
+  "name": "optimizing-renders-counter",
+  "version": "1.0.0",
+  "description": "In this challenge you're given two components, ParentComponent and ChildComponent. The goal is to make it so whenever the button in ChildComponent is clicked, you increment count in the ParentComponent. The caveat is that ChildComponent should only ever render once, when the app first loads.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}
