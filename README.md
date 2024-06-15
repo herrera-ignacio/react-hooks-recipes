@@ -72,6 +72,7 @@ Working examples of things you'd want to do with React.
 - [Add to cart reducer](challenges/add-to-cart-reducer)
 - [Undo redo reducer](challenges/undo-redo-reducer)
 
-### Referential equality
+### Referential equality & memoization
 
 - [Localized primes](challenges/localized-primes)
+- [Data table](challenges/data-table)
