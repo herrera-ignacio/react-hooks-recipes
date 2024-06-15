@@ -32,7 +32,7 @@ Working examples of things you'd want to do with React.
   - [Counter with steps](hooks/useReducer/counterWithSteps)
 - [useImperativeHandle](hooks/useImperativeHandle)
 - [useLayoutEffect](hooks/useLayoutEffect)
-- 
+- [useSyncExternalStore](hooks/useSyncExternalStore)
 
 ## Gotchas
 
