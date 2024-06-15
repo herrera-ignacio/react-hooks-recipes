@@ -19,6 +19,8 @@ Working examples of things you'd want to do with React.
 
 ## Hooks
 
+- [Rules of hooks](hooks/rules/README.md)
+
 ### Examples
 
 - [useState](hooks/useState)
