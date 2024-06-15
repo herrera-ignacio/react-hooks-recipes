@@ -3,21 +3,22 @@ import { phone, desktop } from "./icons";
 
 const query = "only screen and (max-width : 768px)";
 
-const getSnapshot = () => {
-  return window.matchMedia(query).matches;
-}
-
-const subscribe = (callback) => {
-  const matchMedia = window.matchMedia(query);
-  matchMedia.addEventListener("change", callback);
-
-  return () => {
-    matchMedia.removeEventListener("change", callback);
-  };
-};
-
 export default function MatchMedia() {
-  const isMobile = React.useSyncExternalStore(subscribe, getSnapshot);
+  const [isMobile, setIsMobile] = React.useState(false);
+
+  React.useEffect(() => {
+    const handleChange = () => {
+      setIsMobile(window.matchMedia(query).matches);
+    };
+
+    const matchMedia = window.matchMedia(query);
+
+    matchMedia.addEventListener("change", handleChange);
+
+    return () => {
+      matchMedia.removeEventListener("change", handleChange);
+    };
+  }, []);
 
   return (
     <section>

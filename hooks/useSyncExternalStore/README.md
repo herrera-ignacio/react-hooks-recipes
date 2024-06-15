@@ -3,6 +3,7 @@
 <!-- TOC -->
 * [useSyncExternalStore](#usesyncexternalstore)
   * [Overview](#overview-)
+  * [Examples](#examples)
 <!-- TOC -->
 
 ## Overview 

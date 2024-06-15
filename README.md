@@ -85,4 +85,7 @@ Working examples of things you'd want to do with React.
 
 - [React ruler resize](challenges/react-ruler-resize)
 - [Flexible tooltip](challenges/flexible-tooltip)
+
+## useSyncExternalStorage
+
 - [Match media](challenges/match-media)
