@@ -1,0 +1,70 @@
+section {
+    margin: 0 auto;
+    padding: 50px;
+    display: grid;
+    place-items: center;
+    max-width: 650px;
+}
+
+p > span:first-child {
+    cursor: help;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: var(--yellow);
+}
+
+button {
+    --focus-object: 0 0 0 0.2rem var(--blue), 0 0 0 0.27rem var(--white);
+    padding: 1em 2em;
+    background-color: var(--yellow);
+    border-radius: 9999px;
+    border: var(--border-dark);
+    font-family: var(--font-outfit);
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: var(--charcoal);
+    cursor: pointer;
+    box-shadow: 2px 2px 0 var(--charcoal);
+    transition: box-shadow 0.15s ease-in-out;
+}
+
+button:hover {
+    outline: none;
+    box-shadow: var(--focus-object);
+}
+
+.tooltip {
+    position: fixed;
+    background-color: var(--beige);
+    color: var(--charcoal);
+    padding: 12px;
+    border-radius: 4px;
+    max-width: 300px;
+    text-align: center;
+    z-index: 100;
+    display: block;
+}
+
+.tooltip:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: var(--beige);
+    position: absolute;
+    rotate: 45deg;
+}
+
+.tooltip-top:before {
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tooltip-bottom:before {
+    top: var(--top, 0px);
+    left: var(--left, 50%);
+    transform: translateX(-50%);
+}
