@@ -1,0 +1,15 @@
+{
+  "name": "undo-redo-reducer",
+  "version": "1.0.0",
+  "description": "The goal of this challenge is, using useReducer, add increment, decrement, undo, and redo functionality to your application. Unlike the other challenges, you'll need to wire up useReducer, the event handlers, and the reducer function yourself – you won't need to touch the JSX though.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}

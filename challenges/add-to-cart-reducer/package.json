@@ -1,0 +1,15 @@
+{
+  "name": "add-to-cart-reducer",
+  "version": "1.0.0",
+  "description": "Given the final ShoppingCart component (including all the JSX and event handlers), your job is to finish implementing both the reducer function as well as the calculateTotal function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}

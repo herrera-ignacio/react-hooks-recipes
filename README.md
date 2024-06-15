@@ -69,3 +69,9 @@ Working examples of things you'd want to do with React.
 
 - [Multistep form reducer](challenges/multi-step-form-reducer)
 - [Task manager reducer](challenges/task-manager-reducer)
+- [Add to cart reducer](challenges/add-to-cart-reducer)
+- [Undo redo reducer](challenges/undo-redo-reducer)
+
+### Referential equality
+
+- [Localized primes](challenges/localized-primes)
