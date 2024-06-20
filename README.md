@@ -1,6 +1,6 @@
 # React notes
 
-Working examples of things you'd want to do with React.
+Theory and practice notes on React.
 
 ## Architecture
 
@@ -87,6 +87,9 @@ Working examples of things you'd want to do with React.
 - [React ruler resize](challenges/react-ruler-resize)
 - [Flexible tooltip](challenges/flexible-tooltip)
 
-## useSyncExternalStorage
+### useSyncExternalStorage
 
 - [Match media](challenges/match-media)
+
+## Custom hooks
+
