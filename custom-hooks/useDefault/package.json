@@ -1,0 +1,15 @@
+{
+  "name": "usedefault",
+  "version": "1.0.0",
+  "description": "",
+  "main": "useDefault.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}

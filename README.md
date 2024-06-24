@@ -93,3 +93,9 @@ Theory and practice notes on React.
 
 ## Custom hooks
 
+### Rebuilding useHooks
+
+> https://usehooks.com/
+
+- [useDocumentTitle](custom-hooks/useDocumentTitle)
+- [useDefault](custom-hooks/useDefault)
