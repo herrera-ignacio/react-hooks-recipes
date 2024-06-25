@@ -100,3 +100,4 @@ Theory and practice notes on React.
 - [useDocumentTitle](custom-hooks/useDocumentTitle)
 - [useDefault](custom-hooks/useDefault)
 - [useToggle](custom-hooks/useToggle)
+- [usePrevious](custom-hooks/usePrevious)
