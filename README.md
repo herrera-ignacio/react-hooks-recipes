@@ -106,3 +106,4 @@ Theory and practice notes on React.
 - [useCopyToClipboard](custom-hooks/useCopyToClipboard)
 - [useInterval](custom-hooks/useInterval)
 - [useCounter](custom-hooks/useCounter)
+- [useLockBodyScroll](custom-hooks/useLockBodyScroll)
