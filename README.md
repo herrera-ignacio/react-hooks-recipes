@@ -101,3 +101,7 @@ Theory and practice notes on React.
 - [useDefault](custom-hooks/useDefault)
 - [useToggle](custom-hooks/useToggle)
 - [usePrevious](custom-hooks/usePrevious)
+- [usePreferredLanguage](custom-hooks/usePreferredLanguage)
+- [useFavicon](custom-hooks/useFavicon)
+- [useCopyToClipboard](custom-hooks/useCopyToClipboard)
+- [useInterval](custom-hooks/useInterval)
