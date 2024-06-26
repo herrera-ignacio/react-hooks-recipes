@@ -11,6 +11,4 @@ export default function useLockBodyScroll() {
       document.body.style.overflow = originalOverflow;
     }
   }, []);
-
-
 }

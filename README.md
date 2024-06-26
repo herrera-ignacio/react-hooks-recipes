@@ -107,3 +107,4 @@ Theory and practice notes on React.
 - [useInterval](custom-hooks/useInterval)
 - [useCounter](custom-hooks/useCounter)
 - [useLockBodyScroll](custom-hooks/useLockBodyScroll)
+- [useQueue](custom-hooks/useQueue)
