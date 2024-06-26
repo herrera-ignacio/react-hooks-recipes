@@ -105,3 +105,4 @@ Theory and practice notes on React.
 - [useFavicon](custom-hooks/useFavicon)
 - [useCopyToClipboard](custom-hooks/useCopyToClipboard)
 - [useInterval](custom-hooks/useInterval)
+- [useCounter](custom-hooks/useCounter)
