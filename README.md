@@ -108,3 +108,4 @@ Theory and practice notes on React.
 - [useTimeout](custom-hooks/useTimeout)
 - [useWindowSize](custom-hooks/useWindowSize)
 - [useVisibilityChange](custom-hooks/useVisibilityChange)
+- [useList](custom-hooks/useList)
