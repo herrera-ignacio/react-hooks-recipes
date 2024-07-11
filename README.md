@@ -21,11 +21,12 @@ Theory and practice notes on React.
 
 - [Rules of hooks](hooks/rules/README.md)
 
-### Examples
+### Built-in hooks
 
 - [useState](hooks/useState)
 - [useEffect](hooks/useEffect)
 - [useRef](hooks/useRef)
+  - [forwardRef](gotchas/forwardRef)
 - [useContext](hooks/useContext) 
 - [useReducer](hooks/useReducer)
   - [To-Do list](hooks/useReducer/todo)
@@ -35,13 +36,9 @@ Theory and practice notes on React.
 - [useSyncExternalStore](hooks/useSyncExternalStore)
 - [useEffectEvent](hooks/useEffectEvent)
 
-## Gotchas
+### Challenges
 
-- [forwardRef](gotchas/forwardRef)
-
-## Challenges
-
-### useEffect and useState
+#### useEffect and useState
 
 - [Counter](challenges/counter)
 - [Smart character limit](challenges/smart-character-limit)
@@ -53,7 +50,7 @@ Theory and practice notes on React.
 - [Clock](challenges/clock)
 - [Country info](challenges/country-info)
 
-### useRef
+#### useRef
 
 - [Autofocus](challenges/autofocus)
 - [Video-player](challenges/video-player)
@@ -62,38 +59,38 @@ Theory and practice notes on React.
 - [Expanding textarea](challenges/expanding-textarea)
 - [Follow the leader](challenges/follow-the-leader)
 
-### useContext
+#### useContext
 
 - [Auth context](challenges/auth-context)
 - [Translations context](challenges/translations-context)
 - [Tabs context](challenges/tabs-context)
 - [News feed context](challenges/news-feed-context)
 
-### useReducer
+#### useReducer
 
 - [Multistep form reducer](challenges/multi-step-form-reducer)
 - [Task manager reducer](challenges/task-manager-reducer)
 - [Add to cart reducer](challenges/add-to-cart-reducer)
 - [Undo redo reducer](challenges/undo-redo-reducer)
 
-### Referential equality & memoization
+#### Referential equality & memoization
 
 - [Localized primes](challenges/localized-primes)
 - [Data table](challenges/data-table)
 - [Optimizing renders counter](challenges/optimizing-renders-counter)
 
-### useLayoutEffect
+#### useLayoutEffect
 
 - [React ruler resize](challenges/react-ruler-resize)
 - [Flexible tooltip](challenges/flexible-tooltip)
 
-### useSyncExternalStorage
+#### useSyncExternalStorage
 
 - [Match media](challenges/match-media)
 
-## Custom hooks
+### Custom hooks
 
-### Rebuilding useHooks
+#### Rebuilding useHooks
 
 > https://usehooks.com/
 
@@ -108,3 +105,4 @@ Theory and practice notes on React.
 - [useCounter](custom-hooks/useCounter)
 - [useLockBodyScroll](custom-hooks/useLockBodyScroll)
 - [useQueue](custom-hooks/useQueue)
+- [useTimeout](custom-hooks/useTimeout)
