@@ -106,3 +106,5 @@ Theory and practice notes on React.
 - [useLockBodyScroll](custom-hooks/useLockBodyScroll)
 - [useQueue](custom-hooks/useQueue)
 - [useTimeout](custom-hooks/useTimeout)
+- [useWindowSize](custom-hooks/useWindowSize)
+- [useVisibilityChange](custom-hooks/useVisibilityChange)
