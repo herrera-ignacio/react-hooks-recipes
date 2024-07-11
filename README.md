@@ -109,3 +109,4 @@ Theory and practice notes on React.
 - [useWindowSize](custom-hooks/useWindowSize)
 - [useVisibilityChange](custom-hooks/useVisibilityChange)
 - [useList](custom-hooks/useList)
+- [useObjectState](custom-hooks/useObjectState)
