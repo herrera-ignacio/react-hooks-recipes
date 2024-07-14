@@ -110,3 +110,4 @@ Theory and practice notes on React.
 - [useVisibilityChange](custom-hooks/useVisibilityChange)
 - [useList](custom-hooks/useList)
 - [useObjectState](custom-hooks/useObjectState)
+- [useDebounce](custom-hooks/useDebounce)
