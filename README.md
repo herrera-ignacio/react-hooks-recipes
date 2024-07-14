@@ -112,3 +112,4 @@ Theory and practice notes on React.
 - [useObjectState](custom-hooks/useObjectState)
 - [useDebounce](custom-hooks/useDebounce)
 - [useContinuousRetry](custom-hooks/useContinuousRetry)
+- [useHistoryState](custom-hooks/useHistoryState)
