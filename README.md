@@ -120,3 +120,4 @@ Theory and practice notes on React.
 - [useMouse](custom-hooks/useMouse)
 - [useClickAway](custom-hooks/useClickAway)
 - [useWindowScroll](custom-hooks/useWindowScroll)
+- [useLogger](custom-hooks/useLogger)
