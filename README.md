@@ -122,3 +122,4 @@ Theory and practice notes on React.
 - [useWindowScroll](custom-hooks/useWindowScroll)
 - [useLogger](custom-hooks/useLogger)
 - [useOrientation](custom-hooks/useOrientation)
+- [useBattery](customh-hooks/useBattery)
