@@ -117,3 +117,4 @@ Theory and practice notes on React.
 - [useRandomInterval](custom-hooks/useRandomInterval)
 - [useMediaQuery](custom-hooks/useMediaQuery)
 - [useIntervalWhen](custom-hooks/useIntervalWhen)
+- [useMouse](custom-hooks/useMouse)
