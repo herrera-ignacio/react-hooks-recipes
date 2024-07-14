@@ -1,26 +1,37 @@
 import * as React from "react";
+import useClickAway from "./useClickAway";
+import { closeIcon } from "./icons";
 
-React.useEffectEvent = React.experimental_useEffectEvent;
-
-export default function useClickAway(cb) {
-  const ref = React.useRef(null);
-
-  const onClickAwayHandler = React.useEffectEvent((e) => {
-    const element = ref.current;
-    if (element && !element.contains(e.target)) {
-      cb(e);
-    }
+export default function App() {
+  const [isOpen, setIsOpen] = React.useState(false);
+  const ref = useClickAway(() => {
+    setIsOpen(false);
   });
 
-  React.useEffect(() => {
-    document.addEventListener("mousedown", onClickAwayHandler);
-    document.addEventListener("touchstart", onClickAwayHandler);
-
-    return () => {
-      document.removeEventListener("mousedown", onClickAwayHandler);
-      document.removeEventListener("touchstart", onClickAwayHandler);
+  const handleOpenModal = () => {
+    if (isOpen === false) {
+      setIsOpen(true);
     }
-  }, [])
+  };
 
-  return ref;
+  return (
+    <>
+      <section>
+        <h1>useClickAway</h1>
+        <button className="link" onClick={handleOpenModal}>
+          Open Modal
+        </button>
+      </section>
+      {isOpen && (
+        <dialog ref={ref}>
+          <button onClick={() => setIsOpen(false)}>{closeIcon}</button>
+          <h2>Modal</h2>
+          <p>
+            Click outside the modal to close (or use the button) whatever you
+            prefer.
+          </p>
+        </dialog>
+      )}
+    </>
+  );
 }

@@ -119,3 +119,4 @@ Theory and practice notes on React.
 - [useIntervalWhen](custom-hooks/useIntervalWhen)
 - [useMouse](custom-hooks/useMouse)
 - [useClickAway](custom-hooks/useClickAway)
+- [useWindowScroll](custom-hooks/useWindowScroll)
