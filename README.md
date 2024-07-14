@@ -114,3 +114,4 @@ Theory and practice notes on React.
 - [useContinuousRetry](custom-hooks/useContinuousRetry)
 - [useHistoryState](custom-hooks/useHistoryState)
 - [useEventListener](custom-hooks/useEventListener)
+- [useRandomInterval](custom-hooks/useRandomInterval)
