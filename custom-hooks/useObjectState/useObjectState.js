@@ -5,5 +5,17 @@ const isPlainObject = (value) => {
 };
 
 export default function useObjectState(initialValue) {
-  return [{}, () => {}];
+  const [state, setState] = React.useState(initialValue);
+
+  const handleUpdate = React.useCallback((arg) => {
+    const update = typeof arg === "function" ? arg(state) : arg;
+    if (isPlainObject(update)) {
+      setState(currentState => ({
+        ...currentState,
+        ...update
+      }));
+    }
+  }, []);
+
+  return [state, handleUpdate];
 }
