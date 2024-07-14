@@ -121,3 +121,4 @@ Theory and practice notes on React.
 - [useClickAway](custom-hooks/useClickAway)
 - [useWindowScroll](custom-hooks/useWindowScroll)
 - [useLogger](custom-hooks/useLogger)
+- [useOrientation](custom-hooks/useOrientation)
