@@ -115,3 +115,4 @@ Theory and practice notes on React.
 - [useHistoryState](custom-hooks/useHistoryState)
 - [useEventListener](custom-hooks/useEventListener)
 - [useRandomInterval](custom-hooks/useRandomInterval)
+- [useMediaQuery](custom-hooks/useMediaQuery)
