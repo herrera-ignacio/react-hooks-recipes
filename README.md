@@ -116,3 +116,4 @@ Theory and practice notes on React.
 - [useEventListener](custom-hooks/useEventListener)
 - [useRandomInterval](custom-hooks/useRandomInterval)
 - [useMediaQuery](custom-hooks/useMediaQuery)
+- [useIntervalWhen](custom-hooks/useIntervalWhen)
