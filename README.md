@@ -118,3 +118,4 @@ Theory and practice notes on React.
 - [useMediaQuery](custom-hooks/useMediaQuery)
 - [useIntervalWhen](custom-hooks/useIntervalWhen)
 - [useMouse](custom-hooks/useMouse)
+- [useClickAway](custom-hooks/useClickAway)
