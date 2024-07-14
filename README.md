@@ -113,3 +113,4 @@ Theory and practice notes on React.
 - [useDebounce](custom-hooks/useDebounce)
 - [useContinuousRetry](custom-hooks/useContinuousRetry)
 - [useHistoryState](custom-hooks/useHistoryState)
+- [useEventListener](custom-hooks/useEventListener)
