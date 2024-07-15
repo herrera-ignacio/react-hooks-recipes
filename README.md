@@ -124,3 +124,4 @@ Theory and practice notes on React.
 - [useOrientation](custom-hooks/useOrientation)
 - [useBattery](custom-hooks/useBattery)
 - [usePageLeave](custom-hooks/usePageLeave)
+- [useKeyPress](custom-hooks/useKeyPress)
