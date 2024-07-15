@@ -129,3 +129,5 @@ Theory and practice notes on React.
 - [useIdle](custom-hooks/useIdle)
 - [useFetch](custom-hooks/useFetch)
 - [useCountdown](custom-hooks/useCountdown)
+- [useGeolocation](custom-hooks/useGeolocation)
+- [useLocalStorage](custom-hooks/useLocalStorage)
