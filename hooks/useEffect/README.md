@@ -11,6 +11,8 @@
 
 The _Effect Hook_ lets you perform __side effects in components after render_. Network requests, setting up a subscription, and manual DOM mutations are all examples of side effects.
 
+We normally want to use it to sync our components with some external system using a side effect.
+
 ## Callback: The "effect"
 
 By default, the functions passed to `useEffect` is going to be different on every render. This is intentional.
