@@ -127,3 +127,4 @@ Theory and practice notes on React.
 - [useKeyPress](custom-hooks/useKeyPress)
 - [useThrottle](custom-hooks/useThrottle)
 - [useIdle](custom-hooks/useIdle)
+- [useFetch](custom-hooks/useFetch)
