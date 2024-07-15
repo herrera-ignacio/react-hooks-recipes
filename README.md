@@ -126,3 +126,4 @@ Theory and practice notes on React.
 - [usePageLeave](custom-hooks/usePageLeave)
 - [useKeyPress](custom-hooks/useKeyPress)
 - [useThrottle](custom-hooks/useThrottle)
+- [useIdle](custom-hooks/useIdle)
