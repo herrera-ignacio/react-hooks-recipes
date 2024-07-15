@@ -133,3 +133,4 @@ Theory and practice notes on React.
 - [useLocalStorage](custom-hooks/useLocalStorage)
 - [useSessionStorage](custom-hooks/useSessionStorage)
 - [useIsClient](custom-hooks/useIsClient)
+- [useNetworkState](custom-hooks/useNetworkState)
