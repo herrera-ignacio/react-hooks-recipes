@@ -131,3 +131,4 @@ Theory and practice notes on React.
 - [useCountdown](custom-hooks/useCountdown)
 - [useGeolocation](custom-hooks/useGeolocation)
 - [useLocalStorage](custom-hooks/useLocalStorage)
+- [useSessionStorage](custom-hooks/useSessionStorage)
